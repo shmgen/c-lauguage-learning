@@ -30,6 +30,10 @@ The following topics have reserved folders for future practice:
 ```text
 c-lauguage-learning/
 ├── README.md
+├── .gitignore
+├── archive/
+│   ├── README.md
+│   └── original-practice/
 ├── basic/
 │   ├── hello.c
 │   └── character_case.c
@@ -56,6 +60,12 @@ c-lauguage-learning/
 ├── data-structures/
 └── projects/
 ```
+
+## Original practice archive
+
+The `archive/original-practice/` directory preserves the original `.c` files, including code that was commented out during earlier experiments. Those comments are part of the learning record.
+
+The categorized files are cleaned runnable examples; the archive files are historical reference and review material.
 
 ## Git workflow
 
