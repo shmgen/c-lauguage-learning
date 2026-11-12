@@ -63,16 +63,7 @@ c-lauguage-learning/
 
 ## Original practice archive
 
-The `archive/original-practice/` directory preserves the original `.c` files, including code that was commented out during earlier experiments. Those comments are part of the learning record.
+The `archive/original-practice/` directory preserves the original `.c` files, including code that was commented out during earlier practices. Those comments are part of the learning record.
 
 The categorized files are cleaned runnable examples; the archive files are historical reference and review material.
 
-## Git workflow
-
-```text
-modify code
-→ git status
-→ git add .
-→ git commit -m "Describe the change"
-→ git push
-```
