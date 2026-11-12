@@ -31,39 +31,48 @@ The following topics have reserved folders for future practice:
 c-lauguage-learning/
 ├── README.md
 ├── .gitignore
-├── archive/
+├── 原始记录/
 │   ├── README.md
-│   └── original-practice/
-├── basic/
+│   └── 原始练习/
+├── 基础/
 │   ├── hello.c
 │   └── character_case.c
-├── conditions/
+├── 条件/
 │   └── leap_year.c
-├── loops/
+├── 循环/
 │   ├── factorial.c
 │   └── multiplication_table.c
-├── arrays/
+├── 数组/
 │   ├── character_count.c
 │   ├── array_reverse.c
 │   └── merge_sorted_arrays.c
-├── functions/
+├── 函数/
 │   └── static_local_variable.c
-├── pointers/
+├── 指针/
 │   └── array_pointer.c
-├── unions/
+├── 联合体/
 │   └── union_size.c
-├── strings/
-├── structures/
-├── enumeration/
-├── dynamic-memory/
-├── file-io/
-├── data-structures/
-└── projects/
+├── 字符串/
+├── 结构体/
+├── 枚举/
+├── 动态内存/
+├── 文件操作/
+├── 数据结构/
+└── 综合项目/
 ```
 
 ## Original practice archive
 
-The `archive/original-practice/` directory preserves the original `.c` files, including code that was commented out during earlier practices. Those comments are part of the learning record.
+The `原始记录/原始练习/` directory preserves the original `.c` files, including code that was commented out during earlier experiments. Those comments are part of the learning record.
 
 The categorized files are cleaned runnable examples; the archive files are historical reference and review material.
 
+## Git workflow
+
+```text
+modify code
+→ git status
+→ git add .
+→ git commit -m "Describe the change"
+→ git push
+```
